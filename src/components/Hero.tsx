@@ -5,7 +5,7 @@ import heroImg from "../../public/img/hero.png";
 export const Hero = () => {
   return (
     <>
-      <Container className="flex flex-wrap ">
+      <Container className="flex flex-wrap">
         <div className="flex items-center w-full lg:w-1/2">
           <div className="max-w-2xl mb-8">
             <h1 className="text-4xl font-bold leading-snug tracking-tight text-gray-800 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight dark:text-white">
@@ -43,16 +43,16 @@ export const Hero = () => {
           </div>
         </div>
       </Container>
-      <Container>
+      <Container id="Highlights">
         <div className="flex flex-col justify-center">
-        <div className="text-sm font-bold tracking-wider text-indigo-600 uppercase text-center">
-          Our Highlights
-        </div>
+          <div className="text-sm font-bold tracking-wider text-indigo-600 uppercase text-center">
+            Our Highlights
+          </div>
           <div className="flex flex-wrap justify-center gap-5 mt-5 md:justify-around">
-          <Accomplishment verb="Managed" noun="2000+ Chats" />
+            <Accomplishment verb="Managed" noun="2000+ Chats" />
             <Accomplishment verb="Resolved" noun="1000+ Issues" />
             <Accomplishment verb="Generated" noun="100+ Leases" />
-            <Accomplishment verb="Saved" noun="$10k+"/>
+            <Accomplishment verb="Saved" noun="$10k+" />
             {/* <Accomplishment verb="Resolved" noun="1000+ Issues" />
             <Accomplishment verb="Manage" noun="1000+ Issues" /> */}
           </div>

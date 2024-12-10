@@ -1,13 +1,11 @@
+import { Benefits } from "@/components/Benefits";
 import { Container } from "@/components/Container";
+import { Cta } from "@/components/Cta";
 import { Hero } from "@/components/Hero";
 import { SectionTitle } from "@/components/SectionTitle";
-import { Benefits } from "@/components/Benefits";
-import { Video } from "@/components/Video";
 import { Testimonials } from "@/components/Testimonials";
-import { Faq } from "@/components/Faq";
-import { Cta } from "@/components/Cta";
 
-import { benefitOne, benefitTwo, benefitThree } from "@/components/data";
+import { benefitOne, benefitThree, benefitTwo } from "@/components/data";
 export default function Home() {
   return (
     <Container>
@@ -20,10 +18,11 @@ export default function Home() {
         and indie projects. Its built with Next.js & TailwindCSS. And its
         completely open-source.
       </SectionTitle> */}
-
-      <Benefits data={benefitOne} />
-      <Benefits imgPos="right" data={benefitTwo} />
-      <Benefits data={benefitThree} />
+      <div id="Features">
+        <Benefits data={benefitOne} />
+        <Benefits imgPos="right" data={benefitTwo} />
+        <Benefits data={benefitThree} />
+      </div>
 
       {/* <SectionTitle
         preTitle="Watch a video"
@@ -35,16 +34,17 @@ export default function Home() {
       </SectionTitle>
 
       <Video videoId="fZ0D0cnR88E" /> */}
+      <div id="Testimonials">
+        <SectionTitle
+          preTitle="Testimonials"
+          title="Here's what our customers said"
+        >
+          Testimonials is a great way to increase the brand trust and awareness.
+          Use this section to highlight your popular customers.
+        </SectionTitle>
 
-      <SectionTitle
-        preTitle="Testimonials"
-        title="Here's what our customers said"
-      >
-        Testimonials is a great way to increase the brand trust and awareness.
-        Use this section to highlight your popular customers.
-      </SectionTitle>
-
-      <Testimonials />
+        <Testimonials />
+      </div>
 
       {/* <SectionTitle preTitle="FAQ" title="Frequently Asked Questions">
         Answer your customers possible questions here, it will increase the

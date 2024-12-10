@@ -12,7 +12,7 @@ import benefitTwoImg from "../../public/img/benefit-two.png";
 
 const benefitOne = {
   title: "Realtime Tenant Communication",
-  desc: "Effortlessly manage communication for prospective and current tenants.",
+  desc: "Effortlessly communicate with prospective and current tenants.",
   image: benefitOneImg,
   bullets: [
     {
