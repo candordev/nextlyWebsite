@@ -1,6 +1,6 @@
+import { Container } from "@/components/Container";
 import Image from "next/image";
 import React from "react";
-import { Container } from "@/components/Container";
 
 import userOneImg from "../../public/img/user1.jpg";
 import userTwoImg from "../../public/img/user2.jpg";
@@ -13,42 +13,42 @@ export const Testimonials = () => {
         <div className="lg:col-span-2 xl:col-auto">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
             <p className="text-2xl leading-normal ">
-              Share a real <Mark>testimonial</Mark>
-              that hits some of your benefits from one of your popular customer.
+              Candor has transformed our <Mark>communications</Mark>. What used to take hours
+              of back and forth is now minutes.
             </p>
 
             <Avatar
               image={userOneImg}
               name="Sarah Steiner"
-              title="VP Sales at Google"
+              title="Thirdstone Properties"
             />
           </div>
         </div>
         <div className="">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
             <p className="text-2xl leading-normal ">
-              Make sure you only pick the <Mark>right sentence</Mark>
-              to keep it short and simple.
+              Tickets are automatically triaged, and vendors are scheduled
+              instantly. We've reduced issue resolution time by <Mark>40%</Mark>
             </p>
 
             <Avatar
               image={userTwoImg}
               name="Dylan Ambrose"
-              title="Lead marketer at Netflix"
+              title="StayLake Norman"
             />
           </div>
         </div>
         <div className="">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
             <p className="text-2xl leading-normal ">
-              This is an <Mark>awesome</Mark> landing page template I&apos;ve
-              seen. I would use this for anything.
+              We've cut onboarding time in <Mark>half</Mark> since all documents
+              are pre-processed and ready to go.
             </p>
 
             <Avatar
               image={userThreeImg}
               name="Gabrielle Winn"
-              title="Co-founder of Acme Inc"
+              title="Top Service Properties"
             />
           </div>
         </div>
