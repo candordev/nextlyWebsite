@@ -50,10 +50,10 @@ export const Hero = () => {
             Our Highlights
           </div>
           <div className="flex flex-wrap justify-center gap-5 mt-5 md:justify-around">
-            <Accomplishment verb="Managed" noun="2000+ Chats" />
-            <Accomplishment verb="Resolved" noun="1000+ Issues" />
-            <Accomplishment verb="Generated" noun="100+ Leases" />
-            <Accomplishment verb="Saved" noun="$10k+" />
+            <Accomplishment verb="Managed" noun="1500+ Chats" />
+            <Accomplishment verb="Resolved" noun="700+ Issues" />
+            <Accomplishment verb="Generated" noun="50+ Leases" />
+            <Accomplishment verb="Saved" noun="$4k+" />
             {/* <Accomplishment verb="Resolved" noun="1000+ Issues" />
             <Accomplishment verb="Manage" noun="1000+ Issues" /> */}
           </div>
