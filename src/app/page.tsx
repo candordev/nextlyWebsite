@@ -39,8 +39,8 @@ export default function Home() {
           preTitle="Testimonials"
           title="Here's what our customers said"
         >
-          Testimonials is a great way to increase the brand trust and awareness.
-          Use this section to highlight your popular customers.
+          See how property managers are using Candor to save time, boost
+          efficiency, and keep their tenants happy.
         </SectionTitle>
 
         <Testimonials />
