@@ -28,7 +28,7 @@ export const Testimonials = () => {
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
             <p className="text-2xl leading-normal ">
               Tickets are automatically triaged, and vendors are scheduled
-              instantly. We've reduced issue resolution time by <Mark>40%</Mark>
+              instantly. We&apos;ve reduced issue resolution time by <Mark>40%</Mark>
             </p>
 
             <Avatar
@@ -41,7 +41,7 @@ export const Testimonials = () => {
         <div className="">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
             <p className="text-2xl leading-normal ">
-              We've cut onboarding time in <Mark>half</Mark> since all documents
+              We&apos;ve cut onboarding time in <Mark>half</Mark> since all documents
               are pre-processed and ready to go.
             </p>
 
